@@ -1,13 +1,38 @@
 {
-	"private": true,
-	"scripts": {
-		"test": "jest"
-	},
-	"devDependencies": {
-		"@types/jest": "^29.5.5",
-		"jest": "^29.7.0"
-	},
-	"dependencies": {
-		"jest-diff": "^29.7.0"
-	}
+  "name": "jest-example",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">= 22.14.0",
+    "npm": ">= 10.9.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@babel/core": "7.26.9",
+    "@babel/eslint-parser": "7.26.8",
+    "@babel/preset-env": "7.26.9",
+    "@babel/preset-typescript": "7.26.0",
+    "@eslint/js": "9.21.0",
+    "@jest/globals": "29.7.0",
+    "@qimijoy/browserslist-config": "1.1.2",
+    "@qimijoy/prettier-config": "1.0.2",
+    "@types/jest": "29.5.14",
+    "babel-jest": "29.7.0",
+    "core-js": "3.41.0",
+    "cross-env": "7.0.3",
+    "eslint": "9.21.0",
+    "eslint-config-prettier": "10.0.2",
+    "eslint-plugin-jsdoc": "50.6.3",
+    "eslint-plugin-prettier": "5.2.3",
+    "globals": "16.0.0",
+    "jest": "29.7.0",
+    "jest-diff": "29.7.0",
+    "prettier": "3.5.3",
+    "ts-jest": "29.2.6",
+    "typescript": "5.7.3",
+    "typescript-eslint": "8.25.0"
+  }
 }
